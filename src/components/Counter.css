@@ -1,14 +1,21 @@
 body{
-    background-color: aliceblue;
+    background-image: url("https://wallpapercave.com/wp/X0W5i4w.jpg");
+    background-position: center;
+    background-repeat: none;
 }
+
 button {
-    background-color: #add8e6;
+    background-color: lightgray;
     margin: 5px;
     cursor: pointer;
-    width: 50px;
+    width: 30px;
     font-weight: bold;
     text-align: center;
-    border-radius: 4px;
+    border-radius: 50px;
+}
+
+h1 {
+    text-shadow: 3px 3px 6px darkgray;
 }
 
 p {
@@ -21,5 +28,9 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 28px
+    margin: 28px;
+    border: 2px solid black;
+    max-width: 800px;
+    background-color: white;
+    
 }
