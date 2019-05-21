@@ -4,11 +4,21 @@ body{
     background-repeat: none;
 }
 
-button {
+.but {
     background-color: lightgray;
     margin: 5px;
     cursor: pointer;
     width: 30px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.reset {
+    background-color: lightgray;
+    margin: 5px;
+    cursor: pointer;
+    width: 60px;
     font-weight: bold;
     text-align: center;
     border-radius: 50px;

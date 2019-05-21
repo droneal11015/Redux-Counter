@@ -1,5 +1,6 @@
 export const INCREMENT = 'INCREMENT';
 export const DECREMENT = 'DECREMENT';
+export const RESET = 'RESET';
 
 // Our action creators will return
 // an action packet that our reducer will
@@ -23,3 +24,9 @@ export const decrement = (state, action) => {
   }
 };
  
+export const reset = (state, action) => {
+  // Fill in this function
+  return{
+    type: RESET
+  }
+};
